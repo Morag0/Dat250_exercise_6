@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dfaece1-ed5d-4322-92b2-5f3a25d77878" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/Receive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/Send.java" afterDir="false" />
+    <list default="true" id="8dfaece1-ed5d-4322-92b2-5f3a25d77878" name="Changes" comment="Done with &quot;Hello World&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/NewTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rabbitmq/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +39,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Receive">
+}</component>
+  <component name="RunManager" selected="Application.EmitLog">
+    <configuration name="EmitLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rabbitmq.EmitLog" />
+      <module name="Exercise_6.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rabbitmq.NewTask" />
+      <module name="Exercise_6.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Receive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rabbitmq.Receive" />
       <module name="Exercise_6.main" />
@@ -67,8 +84,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rabbitmq.Send" />
+    <configuration name="ReceiveLogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rabbitmq.ReceiveLogs" />
+      <module name="Exercise_6.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Worker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rabbitmq.Worker" />
       <module name="Exercise_6.main" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReceiveLogs" />
+        <item itemvalue="Application.EmitLog" />
+        <item itemvalue="Application.Worker" />
+        <item itemvalue="Application.NewTask" />
         <item itemvalue="Application.Receive" />
-        <item itemvalue="Application.Send" />
       </list>
     </recent_temporary>
   </component>
@@ -95,8 +128,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728053840292</updated>
-      <workItem from="1728053844207" duration="595000" />
+      <workItem from="1728053844207" duration="827000" />
+      <workItem from="1728056675878" duration="414000" />
     </task>
+    <task id="LOCAL−00001" summary="Done with &quot;Hello World&quot;">
+      <created>1728054477871</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1728054477871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,5 +153,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Done with &quot;Hello World&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with &quot;Hello World&quot;" />
   </component>
 </project>
